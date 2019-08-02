@@ -50,7 +50,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 def p003(num=600851475143):
     def prime(num):
-        for d in range(2, int(num) // 2):
+        for d in range(2, int(num) // 2+1):
             if num % d == 0:
                 return False
         return True
