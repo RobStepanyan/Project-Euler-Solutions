@@ -125,7 +125,7 @@ def p005():
         if divisible == True:
             break
         else:
-            num += 20
+            num += 2520
     print('p005: ', num)
 
 
